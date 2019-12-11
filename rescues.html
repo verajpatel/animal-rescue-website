@@ -19,17 +19,17 @@
     <li><a href="#footer">Jump to footer</a></li>
   </ul>
 
-  <div class="background">
+  <div>
     <section>
       <header role="banner" id="banner">
         <div class="grid">
           <img class="logo unit xs-1 s-1 m-1 l-1 push-1-4 island-1-4 img-flex relative" src="images/logo.png" alt="" aria-details="website-logo">
-          <h1 class="zetta bold text-center push-0 pad-t-1-4 unit xs-1 s-1 m-1 l-1-2 island-1-2 pad-b-1-4 absolute">Dog Rescue &amp; Shelter Society</h1>
+          <h1 class="zetta bold text-center push-0 pad-t-1-4 unit xs-1 s-1 m-1 l-1-2 island-1-2 pad-b-1-4 absolute">LOYAL Rescue: Rescues</h1>
         </div>
-        <div class="text-center">
+        <div class="text-center list-group-inline">
           <nav role="navigation" class="grid" id="nav">
             <div class="unit xs-1 s-1-3 m-1-6 l-1-6 unit-content-distribute pad-t-1-4" id="home">
-              <a class="hover-box block relative crop" href="#">
+              <a class="hover-box block relative crop" href="index.html">
                 <div class="embed embed-3by2">
                   <img class="hover-box-img embed-item img-flex" src="images/adorable.jpg" alt="" aria-details="home-link-image">
                 </div>
@@ -39,7 +39,7 @@
               </a>
             </div>
             <div class="unit xs-1 s-1-3 m-1-6 l-1-6 unit-content-distribute pad-t-1-4" id="avaliablity">
-              <a class="hover-box block relative crop" href="#">
+              <a class="hover-box block relative crop" href="rescues.html">
                 <div class="embed embed-3by2">
                   <img class="hover-box-img embed-item img-flex" src="images/weimaraner.jpg" alt="" aria-details="avaliablity-link-image">
                 </div>
@@ -49,7 +49,7 @@
               </a>
             </div>
             <div class="unit xs-1 s-1-3 m-1-6 l-1-6 unit-content-distribute pad-t-1-4" id="application">
-              <a class="hover-box block relative crop" href="#">
+              <a class="hover-box block relative crop" href="adopt.html">
                 <div class="embed embed-3by2">
                   <img class="hover-box-img embed-item img-flex" src="images/puppy.jpg" alt="" aria-details="application-link-image">
                 </div>
@@ -95,84 +95,95 @@
 
     <main role="main" id="main" tabindex="0">
       <h2>Avaliable Dogs For Adoption</h2>
-      <form class="choice" method="POST" action="https://formspree.io/verajpatel@gmail.com">
-        <div class="">
-          <label for="age">Age</label>
-          <select id="age">
-            <option>Any</option>
-            <option>Baby</option>
-            <option>Puppy</option>
-            <option>Teen</option>
-            <option>Adult</option>
-            <option>Senior</option>
-          </select>
+      <form class="choice island-1-2 max-length" method="POST" action="https://formspree.io/pate0517@algonquinlive.com">
+        <div class="grid">
+          <div class="push xs-1 s-1 m-1-3 l-1-3 gutter-2">
+            <label for="age">Age</label>
+            <select id="age">
+              <option>Any</option>
+              <option>Baby</option>
+              <option>Puppy</option>
+              <option>Teen</option>
+              <option>Adult</option>
+              <option>Senior</option>
+            </select>
+          </div>
+          <div class="push xs-1 s-1 m-1-3 l-1-3 gutter-2">
+            <label for="gender">Gender</label>
+            <select id="gender">
+              <option>Any</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <div class="push xs-1 s-1 m-1-3 l-1-3 gutter-2">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Name Here" required>
+          </div>
+          <button class="btn btn-ghost" type="button">Search</button>
         </div>
-        <div class="">
-          <label for="gender"></label>
-          <select id="gender">
-            <option>Any</option>
-            <option>Male</option>
-            <option>Female</option>
-          </select>
-        </div>
-        <button class="btn btn-ghost" type="button">Search</button>
       </form>
 
       <div class="animal-list grid">
         <div class="unit xs-1 s-1-3 m-1-5 l-1-5 unit-content-distribute island-1-2">
           <a class="relative" href="#">
             <div class="">
-              <img class="adoption-image img-flex" src="images/begging.jpg" alt="">
+              <img class="adoption-image img-flex" src="images/begging.jpg" alt="dog-option-1">
             </div>
             <div class="absolute">
               <h3 class="push-0">Lizzo</h3>
             </div>
           </a>
+          <p>Info about this dog.</p>
         </div>
         <div class="unit xs-1 s-1-3 m-1-5 l-1-5 unit-content-distribute island-1-2">
           <a class="relative" href="#">
             <div class="">
-              <img class="adoption-image img-flex" src="images/puppy.jpg" alt="">
+              <img class="adoption-image img-flex" src="images/puppy.jpg" alt="dog-option-2">
             </div>
             <div class="absolute">
               <h3 class="push-0">Jack</h3>
             </div>
           </a>
+          <p>Info about this dog</p>
         </div>
         <div class="unit xs-1 s-1-3 m-1-5 l-1-5 unit-content-distribute island-1-2">
           <a class="relative" href="#">
             <div class="">
-              <img class="adoption-image img-flex" src="images/adorable.jpg" alt="">
+              <img class="adoption-image img-flex" src="images/adorable.jpg" alt="dog-option-3">
             </div>
             <div class="absolute">
               <h3 class="push-0">Marley</h3>
             </div>
           </a>
+          <p>Info about this dog</p>
         </div>
         <div class="unit xs-1 s-1-3 m-1-5 l-1-5 unit-content-distribute island-1-2">
           <a class="relative" href="#">
             <div class="">
-              <img class="adoption-image img-flex" src="images/weimaraner.jpg" alt="">
+              <img class="adoption-image img-flex" src="images/weimaraner.jpg" alt="dog-option-4">
             </div>
             <div class="absolute">
               <h3 class="push-0">Bluebell</h3>
             </div>
           </a>
+          <p>Info about this dog.</p>
         </div>
         <div class="unit xs-1 s-1-3 m-1-5 l-1-5 unit-content-distribute island-1-2">
           <a class="relative" href="#">
             <div class="">
-              <img class="adoption-image img-flex" src="images/fluffy.jpg" alt="">
+              <img class="adoption-image img-flex" src="images/fluffy.jpg" alt="dog-option-5">
             </div>
             <div class="absolute">
               <h3 class="push-0">Marshall</h3>
             </div>
           </a>
+          <p class="pad-t-2">Info about this dog.</p>
         </div>
       </div>
     </main>
 
-    <footer role="contentinfo" class="pico text-center" id="footer">Dog Rescue & Shelter Society © 2019 All Rights Reserved, for learning purposes only</footer>
-  </div>
+    <footer role="contentinfo" class="pico text-center grid-bottom" id="footer">LOYAL Rescue Rebrand © 2019, used for learning purposes only</footer>
+</div>
 </body>
 </html>
