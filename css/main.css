@@ -1,5 +1,5 @@
 html {
-  font-family: "Open sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -10,13 +10,8 @@ p {
   max-width: 40em;
 }
 
-.background {
-  background-image: repeating-linear-gradient(33deg #e6e7e8 0%, #ed1c24 10%, #a32529 20%, #ed1c24 30%);
-}
-
-.logo {
-  min-width: 180px;
-  min-height: 180px;
+.form-background {
+  background-color: #c7c8ca;
 }
 
 .hover-box {
